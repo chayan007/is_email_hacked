@@ -1,3 +1,24 @@
 from django.db import models
 
-# Create your models here.
+
+class Email(models.Model):
+    email = models.EmailField()
+
+    def __str__(self):
+        return self.email
+
+
+class Hacks(models.Model):
+    site = models.CharField(max_length=200)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.site
+
+
+class HackMap(models.Model):
+    email = models.ForeignKey(Email, on_delete=models.CASCADE)
+    hack = models.ForeignKey(Hacks, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.email
