@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import validator
+from validator import urls as validator_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('validate/', include(validator.urls)),
+    path('validate/', include(validator_urls)),
 ]

@@ -1,12 +1,15 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from .constants import VALIDATOR_URL, REFERER_URL
 import requests
 
 
 def get_response(email):
-    email.replace('@', '%')
-    res = requests.get(url=VALIDATOR_URL + email, data=REFERER_URL)
-    return res
+    headers = {
+        'user-agent': 'Mozilla/5.0',
+        'accept-language': 'en-GB',
+        'referrer': REFERER_URL
+    }
+    return requests.get(url=VALIDATOR_URL + email, headers=headers)
 
 
 def check_if_email_hacked(request, email):
@@ -17,4 +20,4 @@ def check_if_email_hacked(request, email):
             'breaches': 0
         })
     else:
-        return response.json()
+        return HttpResponse(response)

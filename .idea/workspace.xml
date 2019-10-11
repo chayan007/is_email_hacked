@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a5ab34-4964-4fc6-af43-30ced6c64326" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validator/rest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/is_email_hacked/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/is_email_hacked/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/validator/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/validator/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/validator/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +37,63 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1602080014000" />
+                <option name="domain" value="haveibeenpwned.com" />
+                <option name="name" value="__cfduid" />
+                <option name="path" value="/" />
+                <option name="value" value="d35f52d0fa99c1b189d23b27afcdf19bc1570544014" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://haveibeenpwned.com" />
+          <option name="urlPath" value="/unifiedsearch/sonicxxx@gmail.com" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://haveibeenpwned.com" />
+          <option name="urlPath" value="/unifiedsearch/sonicxxx@gmail.com" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,7 +143,16 @@
       <option name="presentableId" value="Default" />
       <updated>1570366468571</updated>
       <workItem from="1570366558590" duration="3505000" />
-      <workItem from="1570451784283" duration="2265000" />
+      <workItem from="1570451784283" duration="2293000" />
+      <workItem from="1570470338793" duration="4430000" />
+      <workItem from="1570513664752" duration="1447000" />
+      <workItem from="1570537362295" duration="215000" />
+      <workItem from="1570540343091" duration="1322000" />
+      <workItem from="1570554248181" duration="2893000" />
+      <workItem from="1570620568222" duration="651000" />
+      <workItem from="1570622857353" duration="1484000" />
+      <workItem from="1570625324777" duration="2460000" />
+      <workItem from="1570684166890" duration="98000" />
     </task>
     <servers />
   </component>
