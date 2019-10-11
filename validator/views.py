@@ -18,6 +18,6 @@ def check_if_email_hacked(request, email):
         return JsonResponse({
             'status': 'safe',
             'breaches': 0
-        })
+        }, status=404)
     else:
         return HttpResponse(response)
