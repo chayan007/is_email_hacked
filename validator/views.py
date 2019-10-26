@@ -20,7 +20,7 @@ def get_response(email):
     }
     scraper = cfscrape.create_scraper(sess=session)
     response = scraper.get(url=VALIDATOR_URL + email, headers=headers)
-    kickoff_database_tasks(res=response)
+    kickoff_database_tasks(email=email, res=response)
     return response
     # curl 'https://haveibeenpwned.com/unifiedsearch/sonicxxx7@gmail.com' -H 'user-agent: Mozilla/5.0' -H 'accept-language: en-GB' -H 'rerferrer: https://www.haveibeenpwned.com'
 

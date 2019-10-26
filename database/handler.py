@@ -8,9 +8,14 @@ def add_email(email):
     :param email: str
     :return:
     """
-    Email.objects.create(
-        email=email
-    )
+    try:
+        if not Email.objects.filter(email=email).exists():
+            Email.objects.create(
+                email=email
+            )
+        return True
+    except BaseException:
+        return False
 
 
 def add_hack(hack_dict):
