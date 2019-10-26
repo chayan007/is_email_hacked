@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def kickoff_database_tasks(res):
+    import ipdb
+    ipdb.set_trace()
+    print(res)
