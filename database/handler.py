@@ -50,7 +50,7 @@ def add_hack(hack_dict):
 
 def map_email_hacks(email, hack_dict):
     try:
-        email_obj = Email.objects.filter(email=email)
+        email_obj = Email.objects.filter(email=email).first()
         for hack in hack_dict:
             hack_site = hack['Domain']
             hack_description = hack['Description']
