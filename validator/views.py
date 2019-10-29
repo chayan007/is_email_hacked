@@ -41,7 +41,7 @@ def check_if_email_hacked(request, email):
         }, status=404)
 
     elif response.status_code == 200:
-        kickoff_database_tasks(response)
+        kickoff_database_tasks(email, response)
         return HttpResponse(response)
 
     else:

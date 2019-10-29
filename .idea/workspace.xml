@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a5ab34-4964-4fc6-af43-30ced6c64326" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Email-Breach-Finder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Email-Breach-Finder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email-Breach-Finder/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Email-Breach-Finder/js/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/is_email_hacked/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/is_email_hacked/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +165,9 @@
       <workItem from="1571415235349" duration="6165000" />
       <workItem from="1571845111627" duration="1822000" />
       <workItem from="1571852730486" duration="1062000" />
-      <workItem from="1572110157212" duration="4708000" />
+      <workItem from="1572110157212" duration="6652000" />
+      <workItem from="1572156076874" duration="756000" />
+      <workItem from="1572180238680" duration="343000" />
     </task>
     <servers />
   </component>
