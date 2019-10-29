@@ -6,7 +6,7 @@ def add_email(email):
     Add email to the database.
 
     :param email: str
-    :return:
+    :return: bool
     """
     try:
         if not Email.objects.filter(email=email).exists():
@@ -14,7 +14,7 @@ def add_email(email):
                 email=email
             )
         return True
-    except BaseException:
+    except BaseException as e:
         return False
 
 
@@ -23,7 +23,7 @@ def add_hack(hack_dict):
     Add hack to the database.
 
     :param hack_dict: dict
-    :return:
+    :return: bool
     """
     try:
         for hack in hack_dict:
